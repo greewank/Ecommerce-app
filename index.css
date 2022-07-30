@@ -1,0 +1,64 @@
+.mainContainer {
+  /* display: flex; */
+  background: url(./shop.avif) no-repeat center center/cover;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  height: 100vh;
+}
+
+.firstContainer {
+  background-color: rgb(96, 139, 14, 0.4);
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.images {
+  float: left;
+  width: 7.8rem;
+  height: 7.5rem;
+  background-size: cover;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+.hidden {
+  display: none !important;
+}
+.calculationSection {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr 0.6fr;
+  margin-top: 1rem;
+}
+.btnContainer {
+  padding: 6rem;
+}
+.cartTitle {
+  place-items: center;
+  width: 12%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+}
+.cartContainer {
+  width: 45%;
+  background-color: rgba(222, 184, 135, 0.847);
+}
+.plusBtn {
+  cursor: pointer;
+}
+.plusBtn:hover {
+  transition: all 0.5s linear;
+  color: lightgreen;
+}
+.minusBtn {
+  cursor: pointer;
+}
+.minusBtn:hover {
+  transition: all 0.5s linear;
+  color: red;
+}
